@@ -21,7 +21,7 @@ export default function Experience() {
                   />
                   <div>
                     <h3>HTML</h3>
-                    <p>Intermediate</p>
+                    {/* <p>Intermediate</p> */}
                   </div>
                 </article>
                 <article>
@@ -32,7 +32,7 @@ export default function Experience() {
                   />
                   <div>
                     <h3>CSS</h3>
-                    <p>Intermediate</p>
+                    {/* <p>Intermediate</p> */}
                   </div>
                 </article>
                 <article>
@@ -43,7 +43,7 @@ export default function Experience() {
                   />
                   <div>
                     <h3>Tailwind CSS</h3>
-                    <p>Intermediate</p>
+                    {/* <p>Intermediate</p> */}
                   </div>
                 </article>
                 <article>
@@ -54,7 +54,7 @@ export default function Experience() {
                   />
                   <div>
                     <h3>JavaScript</h3>
-                    <p>Intermediate</p>
+                    {/* <p>Intermediate</p> */}
                   </div>
                 </article>
                 <article>
@@ -65,7 +65,7 @@ export default function Experience() {
                   />
                   <div>
                     <h3>JQuery</h3>
-                    <p>Basic</p>
+                    {/* <p>Basic</p> */}
                   </div>
                 </article>
               </div>
@@ -77,28 +77,28 @@ export default function Experience() {
                   <img src={checkmark} alt="Experience icon" class="icon" />
                   <div>
                     <h3>PostgreSQL</h3>
-                    <p>Basic</p>
+                    {/* <p>Basic</p> */}
                   </div>
                 </article>
                 <article>
                   <img src={checkmark} alt="Experience icon" class="icon" />
                   <div>
                     <h3>Node JS</h3>
-                    <p>Intermediate</p>
+                    {/* <p>Intermediate</p> */}
                   </div>
                 </article>
                 <article>
                   <img src={checkmark} alt="Experience icon" class="icon" />
                   <div>
                     <h3>Express JS</h3>
-                    <p>Intermediate</p>
+                    {/* <p>Intermediate</p> */}
                   </div>
                 </article>
                 <article>
                   <img src={checkmark} alt="Experience icon" class="icon" />
                   <div>
                     <h3>Git</h3>
-                    <p>Intermediate</p>
+                    {/* <p>Intermediate</p> */}
                   </div>
                 </article>
               </div>
