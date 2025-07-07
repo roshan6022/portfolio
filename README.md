@@ -1,12 +1,47 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio web app showcasing my projects, skills, and experience, built with modern web technologies for a responsive and interactive user experience.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React, React Router, Tailwind CSS
+- **Dev Tools**: nodemon
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js (v14 or later)
+- A code editor (e.g. VS Code)
+
+## Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/roshan6022/portfolio.git
+   ```
+
+2. Launch the app:
+
+   ```
+   cd portfolio
+   npm install
+   npm run dev
+   ```
+
+3. Access the APP at http://localhost:5173
+
+## Contributing
+
+1. Fork the repo
+
+2. Create a feature branch (git checkout -b feature/foo)
+
+3. Commit your changes (git commit -am 'Add feature')
+
+4. Push to branch (git push origin feature/foo)
+
+5. Open a pull request
+
+## License
+
+Distributed under the [MIT License](./LICENSE).
