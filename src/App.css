@@ -1,103 +1,199 @@
+/* =============================
+   📱 Base Styles for All Screens
+============================= */
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.section__text__p2 {
+  font-size: 1.25rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.text-container {
+  text-align: justify;
+}
+
+.article {
+  font-size: 1rem;
+}
+
+.section__pic-container {
+  justify-content: center;
+  width: auto;
+  height: 46vw;
+}
+
+/* =============================
+   🍔 Hamburger Menu
+============================= */
+
+/* #hamburger-nav {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.hamburger-menu {
+  position: relative;
+}
+
+.hamburger-icon {
+  cursor: pointer;
+  width: 30px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger-icon span {
+  height: 4px;
+  width: 100%;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.menu-links {
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  z-index: 999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-links.open {
+  display: flex;
+}
+
+.menu-links li {
+  list-style: none;
+}
+
+.menu-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+} */
+
+/* =============================
+   💻 1400px and below
+============================= */
+
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
   }
+
   .about-containers {
     flex-wrap: wrap;
   }
+
   #contact,
   #projects {
     height: fit-content;
   }
 }
 
+/* =============================
+   💻 1200px and below (Tablet)
+============================= */
+
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
   }
+
   #hamburger-nav {
     display: flex;
   }
+
   #experience,
   .experience-details-container {
     margin-top: 2rem;
   }
+
   #profile,
   .section-container {
     display: block;
-  }
-  .arrow {
-    display: none;
-  }
-  section,
-  .section-container {
     height: fit-content;
   }
+
   section {
     margin: 0 5%;
+    height: fit-content;
   }
+
   .section__pic-container {
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
   }
+
+  .arrow {
+    display: none;
+  }
+
   .about-containers {
     margin-top: 0;
   }
 }
+
+/* =============================
+   📱 600px and below (Mobile)
+============================= */
 
 @media screen and (max-width: 600px) {
   #contact,
   footer {
     height: 40vh;
   }
+
   #profile {
     height: 83vh;
     margin-bottom: 0;
   }
-  article {
-    font-size: 1rem;
-  }
+
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
   }
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
+
   .contact-info-container {
     margin: 0;
   }
+
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
   }
+
   .experience-sub-title {
     font-size: 1.25rem;
-  }
-  .logo {
-    font-size: 1.5rem;
-  }
-  .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
-  }
-  .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
-  }
-  .section__text__p2 {
-    font-size: 1.25rem;
-  }
-  .title {
-    font-size: 2rem;
-  }
-  .text-container {
-    text-align: justify;
   }
 }
